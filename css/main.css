@@ -1,3 +1,5 @@
+@import './3rd-party/font-awesome.min.css';
+
 body,
 body * {
     box-sizing: border-box;
@@ -129,6 +131,33 @@ body {
         color: #F5F5F5;
         align-items: center;
         margin-bottom: 80px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+        background-color: #74C69D;
+        color: #F5F5F5;
+    }
+
+    .socials {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+
+    }
+
+    .fa {
+        color: #F5F5F5;
+    }
+
+    .duel {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        padding-bottom: 20px;
     }
 
 }
