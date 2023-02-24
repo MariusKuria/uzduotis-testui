@@ -149,7 +149,6 @@ body {
         display: flex;
         gap: 12px;
         justify-content: center;
-
     }
 
     .fa {
@@ -196,6 +195,7 @@ body {
         gap: 100px;
         color: #F5F5F5;
         margin-bottom: 70px;
+        grid-auto-flow: dense;
     }
 
     .main-text {
@@ -299,6 +299,20 @@ body {
         color: #F5F5F5;
     }
 
+    /* reversas */
+    /* .main>.group {
+        grid-column: 1;
+    }
 
+    .main>.main-text {
+        grid-column: 2;
+    }
 
+    .main.reverse>.group {
+        grid-column: 2;
+    }
+
+    .main.reverse>.main-text {
+        grid-column: 1;
+    } */
 }
