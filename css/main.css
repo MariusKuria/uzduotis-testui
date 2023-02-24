@@ -240,8 +240,63 @@ body {
         margin-top: 40px;
     }
 
+    .partners {
+        color: #74C69D;
+    }
+
     .cwantraste {
         font-size: 40px;
+    }
+
+    .cwtext {
+        font-size: 20px;
+    }
+
+    .logotypes {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        margin-top: 50px;
+    }
+
+    .cwbutn {
+        width: 170px;
+        height: 48px;
+        border-radius: 5px;
+        background-color: #212529;
+        font-size: 20px;
+        color: #F5F5F5;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+
+    .socials {
+        display: flex;
+        gap: 15px;
+
+    }
+
+    .fa {
+        color: #F5F5F5;
+        height: 18px;
+    }
+
+    .duel {
+        display: flex;
+        gap: 10px;
+        font-size: 20px;
+        color: #F5F5F5;
     }
 
 
